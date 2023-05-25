@@ -1,0 +1,290 @@
+.app_mywork{
+    background: #011631;
+}
+
+.app_mywork_content{
+    display: flex;
+    flex-direction: column;
+    padding:  10rem 12rem 10rem;
+    
+}
+.app_mywork_container {
+    background:#fff;
+    border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem; 
+}
+
+.app_mywork_container_two {
+    background:#fff;
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+    margin-bottom: 3rem;
+
+}
+
+.app_mywork_container_content {
+    width: 70%;
+    padding: 4rem;
+}
+
+.app_mywork_container_content_two {
+    width: 70%;
+    padding: 4rem;
+    text-align: right;
+}
+
+
+.app_mywork h1 {
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color:#fff;
+    
+    background-clip: text;
+}
+
+.app_mywork h2 {
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 56px;
+    letter-spacing: -0.04em;
+    color: #000; 
+    padding-top: 2rem;
+}
+
+.app_mywork p {
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    padding-top: 2rem;
+}
+.app_mywork_button_git button {
+    padding: 0.5rem 1rem;
+   color: #fff;
+   left: 1152px;
+   top: 55px;
+   font-family: 'Baloo Paaji 2', cursive;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 20px;
+   border-radius: 5px;
+   border: 0;
+   outline:  none;
+   cursor: pointer;
+   background: #02234e;
+   border-radius: 5px;
+   margin-top:2rem;
+   margin-right: 2rem;
+}
+
+.app_mywork_button_git button:hover {
+    background: #0449a3;
+    box-shadow: 4px 4px 10px 8px #ddd;
+}
+.app_mywork_button_site button {
+    padding: 0.5rem 1rem;
+   color: #fff;
+   left: 1152px;
+   top: 55px;
+   font-family: 'Baloo Paaji 2', cursive;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 20px;
+   border-radius: 5px;
+   border: 0;
+   outline:  none;
+   cursor: pointer;
+   background: #02234e;
+   border-radius: 5px;
+   margin-top:2rem;
+}
+
+.app_mywork_button_site button:hover {
+    background: #0449a3;
+    box-shadow: 4px 4px 10px 8px #ddd;
+}
+
+.app_mywork_container_content_buttons{
+    display: flex;
+    flex-direction: row;
+}
+.app_mywork_container_content_buttons_two{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.app_mywork_image img {
+    width: 600px;
+    height: 350px;
+    margin: 2rem;
+}
+
+
+@media screen and (max-width: 1560px) {
+
+    .app_mywork_content{
+        padding: 8rem; 
+    }
+    .app_mywork_image{
+        padding: 2rem;
+
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .app_mywork_container_content{
+        padding: 2rem;
+    }
+    .app_mywork_container_content_two{
+        padding: 2rem;
+    }
+    .app_mywork h2 {
+        font-size: 32px;
+    }
+
+    .app_mywork p {
+        font-size: 14px;
+    }
+
+    .app_mywork_image img {
+        width: 350px;
+        height: 225px;
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .app_mywork_content{
+        padding: 4rem; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .app_mywork_container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .app_mywork_container_two{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .app_mywork_container_content {
+        width: 70%;
+        text-align: center;
+    }
+    
+    .app_mywork_container_content_two {
+        width: 70%;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .app_mywork_container_content_buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .app_mywork_container_content_buttons_two{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .app_mywork_image{
+        margin: 0;
+        padding: 0;
+    }
+    .app_mywork_image img {
+        width: 500px;
+        height: 300px;
+        margin: 0;
+        margin-top: 5rem;
+    }
+    .app_mywork h2 {   
+        font-size: 50px;
+        text-align: center;
+    }
+    .app_mywork p {  
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .app_mywork h1 {
+        font-weight: 700;
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .app_mywork_image img {
+        width: 400px;
+        height: 250px;
+    }
+    .app_mywork h2 {   
+        font-size: 42px;
+        text-align: center;
+    }
+    .app_mywork p {  
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .app_mywork_content{
+        padding: .5rem;
+    }
+    .app_mywork h1{
+        margin-top: 3rem;
+        font-size: 34px;
+    }
+    .app_mywork_container_content{
+        padding: .5rem;
+    }
+    .app_mywork_container_content_two{
+        padding: .5rem;
+    }
+    .app_mywork_container{
+        padding-top: 2rem;
+    }
+    .app_mywork_container_two{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .app_mywork h2 {   
+        font-size: 30px;
+        text-align: center;
+    }
+    .app_mywork p {  
+        font-size: 12px;
+        text-align: center;
+    }
+    .app_mywork_image{
+        margin: 0;
+    }
+    .app_mywork_image img {
+        width: 275px;
+        height: 175px;
+        margin: .5rem;
+    }
+    .app_mywork_button_site button {
+        font-size: 12px;
+    }
+    .app_mywork_button_git button {
+        font-size: 12px;
+    }
+}
