@@ -143,12 +143,18 @@
         margin: 6rem;
     }
 
+    .app_header_content_input{
+        justify-content: center;
+    }
     .app_header_content {
-        margin: 2rem 0 1rem;
+        margin: 0rem;
+        padding: 0rem;
+        align-items: center;
+        text-align: center;
     }
     .app_header_content_skills {
         padding-top: 2rem;
-        text-align: left;
+        text-align: center;
     }
     .app_header_content_skills_list{
         flex: 1;
